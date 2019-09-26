@@ -1456,7 +1456,7 @@ var $builtinmodule = function (name) {
             this._mode      = "standard";
             this._managers  = {};
             this._keyLogger = {};
-            this._colorMode = 255;  // colormode 1.0 (1.0,0,0) and 255 (255,0,0)defaut 255
+            this._colorMode = 1.0;  // colormode 1.0 (1.0,0,0) and 255 (255,0,0)defaut 255
             _config.colorMode = this._colorMode;
             if (_config.height && _config.width) {
                 w = _config.width/2;
